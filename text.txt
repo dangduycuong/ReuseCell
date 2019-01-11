@@ -1,0 +1,8 @@
+Học xong bài này cần hiểu được:
+	- Reuse là gì: Quá trình tái sử dụng lại Cell 
+	- Có bao nhiêu Cell được khởi tạo: 
+	- Hiểu được sai lệch về mặt dữ liệu:
+	- Hiểu và biết cách khắc phục tình trạng sai lệch thông tin trên: Trước khi reuse Cell cần reset lại Cell bằng hàm prepareForReuse
+
+1 tableView có 4 cell hiển thị dữ liệu của 100 giá trị
+Có 6 cell được sinh ra, header và footer hoặc tuỳ thuộc vào tốc độ vuốt mà nó tái sử dụng cell hoặc sinh ra cell mới (2-3 cell).
